@@ -25,8 +25,8 @@ export const menu = [
   },
   {
     id: 3,
-    text: "portfolio",
-    url: "/portfolio",
+    text: "Specials",
+    url: "/specials",
     icon: <FaRegLightbulb />,
   },
   {

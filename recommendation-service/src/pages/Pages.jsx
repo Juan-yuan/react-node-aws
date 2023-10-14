@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import { Header } from "../common/Header"
 import { Home } from "../components/home/Home"
 import { BoughtBefore } from "../components/page/BoughtBefore"
-import { Portfolio } from "../components/page/Portfolio"
+import { Specials } from "../components/page/Specials"
 import { Blog } from "../components/page/Blog"
 import { Contact } from "../components/page/Contact"
 import { SideContent } from "../components/side/SideContent"
@@ -21,7 +21,7 @@ const Pages = () => {
             <Switch>
               <Route exact path='/' component={Home} />
               <Route exact path='/boughtBefore' component={BoughtBefore} />
-              <Route exact path='/portfolio' component={Portfolio} />
+              <Route exact path='/specials' component={Specials} />
               <Route exact path='/blog' component={Blog} />
               <Route exact path='/contact' component={Contact} />
             </Switch>
