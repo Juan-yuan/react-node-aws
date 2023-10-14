@@ -1,11 +1,25 @@
-import React from "react"
-import { Pages } from "./pages/Pages"
+import React, { useState } from "react"
+import Pages from "./pages/Pages"
+import Login from './pages/Login'
+import "./scss/main.scss"
 
 const App = () => {
+  const [loggedIn, setLoggedIn] = useState(false);
+  const [userId, setUserId] = useState('');
+
+  const handleLogin = (userId) => {
+    setLoggedIn(true);
+    setUserId(userId);
+  };
+
   return (
-    <>
-      <Pages />
-    </>
+    <div className="App">
+      {loggedIn ? (
+        <Pages userId={userId} />
+      ) : (
+        <Login onLogin={handleLogin} />
+      )}
+    </div>
   )
 }
 export default App

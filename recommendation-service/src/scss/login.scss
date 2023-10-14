@@ -1,0 +1,87 @@
+// .login {
+//   position: absolute;
+//   width: 50%;
+//   height: 50%;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   margin: 20px;
+//   color: set-text-color($black);
+//   background: $white;
+//   border-radius: 22px;
+//   overflow: hidden;
+//   cursor: pointer;
+//   transition: border-radius 0.3s ease;
+
+//   &:hover {
+//     cursor: pointer;
+//     border-radius: 220% 247% 60% 43%/156% 135% 59% 60%;
+//   }
+// }
+.login {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 20px;
+  color: set-text-color($black);
+  background: $white;
+  border-radius: 177% 86% 59% 60%/177% 86% 59% 60%;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-radius 0.3s ease, 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    border-radius: 240% 267% 80% 63%/170% 170% 79% 80%;
+  }
+}
+.left {
+  padding-top: 200px;
+  float: left;
+  width: 30%;
+  height: 100%;
+  text-align: right;
+
+}
+.login-input {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-top: 15px;
+  padding: 10px;
+  border: 2px solid green;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: inset 0 -3em 3em rgba(0, 200, 0, 0.3),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(200, 0, 0, 0.6);
+  }
+}
+.right {
+  float: right;
+  width: 70%;
+  height: 100%;
+  background: url("../images/login.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-indent: -20000px;
+}
+.wrapper-button {
+  margin: 10px 0 0 68px;
+
+  .button {
+    height: 39px;
+
+    &::after {
+      line-height: 39px;
+      font-size: 14px;
+      font-weight: 500;
+      content: "Login";
+    }
+  }
+}
