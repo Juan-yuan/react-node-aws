@@ -6,7 +6,7 @@ export const Services = ({ items, Heading }) => {
       <div className='about_services'>
         <Heading title='What I Do?' />
         <div className='about_services_boxs'>
-          {items.serives.map((item) => (
+          {items.recommendations.map((item) => (
             <>
               <div className='card'>
                 <div className='icon'>

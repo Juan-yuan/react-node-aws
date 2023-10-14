@@ -100,16 +100,7 @@ export const about = [
       { text: "Phone Number", value: "1.800.987.6987", icon: <BsPhoneVibrate /> },
       { text: "Address", value: "Click Here to View Map.", icon: <MdShareLocation /> },
     ],
-    bio: [
-      {
-        para1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida risus commodo. Quis ipsum suspendisse ultrices gravida.",
-        para2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        para3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        images: "./images/bio.png",
-      },
-    ],
-
-    serives: [
+    recommendations: [
       {
         id: 1,
         icon: <AiOutlineSetting />,

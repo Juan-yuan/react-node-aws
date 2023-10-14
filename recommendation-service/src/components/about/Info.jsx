@@ -3,7 +3,7 @@ import React from "react"
 export const Info = ({ items, Heading }) => {
   return (
     <>
-      <Heading title='about info' />
+      <Heading title='Contact info' />
       <div className='about_details_content'>
         {items.deatils.map((val) => (
           <>
