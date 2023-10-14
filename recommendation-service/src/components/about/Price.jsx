@@ -5,15 +5,15 @@ export const Price = ({ items, Heading }) => {
   return (
     <>
       <div className='about_price'>
-        <Heading title='Fair Price' />
+        <Heading title='Delivery to your home' />
         <div className='about_price_content'>
           {items.price.map((val) => (
             <div className='cards'>
               <i>{val.icon}</i>
-              <h3>{val.title}</h3>
+              <h5>{val.title}</h5>
               <p>{val.desc}</p>
-              <h1>${val.pri} </h1>
-              <p>per price</p>
+              <h3>${val.pri} </h3>
+              <p>per receipt</p>
 
               <button className='button'>
                 <BiLockOpen className='icons' />

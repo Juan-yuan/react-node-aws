@@ -1,15 +1,12 @@
 $blue: #34313f;
 $lightblue: #15372a78;
-//$lightblue: #292633;
 $primary: #01d85f;
 $indigo: #7635f5;
 $gray: #808080;
 $graydark: #34313f;
 $black: #15372a78;
-//$black: #1d201f;
 $icongreen: #0ad18f;
 $lightdark: #15372a78;
-//$lightdark: #292633;
 $white: #fff;
 $lightgray: #808080;
 
@@ -217,7 +214,6 @@ $sizes: (
   p {
     font-size: 15px;
     line-height: 2;
-    margin: 10px 0;
     color: $gray;
   }
   h3 {
@@ -231,7 +227,7 @@ $sizes: (
 
   @if $hover {
     &:hover {
-      border-radius: 2px 2px 10px 10px;
+      border-radius: 15px;
       border-bottom-color: $indigo;
       box-shadow: -3px 2px 21px 4px rgba(32, 30, 41, 1);
     }

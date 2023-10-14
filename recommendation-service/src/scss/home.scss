@@ -60,9 +60,10 @@
 
   &_sider {
     position: relative;
-    margin: 50px 0;
+    margin: 30px 0;
     width: 100%;
     background: #34313f;
+    padding: 10px;
 
     &_content {
       .card {
@@ -110,12 +111,15 @@
 
   &_price {
     background: #34313f;
+    padding: 10px;
     &_content {
       @include grids(3, 1fr, 40px);
     }
     .cards {
-      @include cards(30px, $lightblue, $hover: false);
+      @include cards(0, $lightblue, $hover: false);
       text-align: center;
+      margin: 0;
+      border-radius: 15px;
 
       &:hover {
         border-radius: 2px 2px 10px 10px;
