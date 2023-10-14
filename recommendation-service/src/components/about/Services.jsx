@@ -1,16 +1,25 @@
 import React from "react"
 
 export const Services = ({ items, Heading }) => {
+  console.log(items.recommendations)
   return (
     <>
       <div className='about_services'>
-        <Heading title='What I Do?' />
+        <Heading title='Shopping made easy' />
         <div className='about_services_boxs'>
           {items.recommendations.map((item) => (
-            <>
-              <div className='card'>
+
+              <div className='card' key={`${item}-icons`}>
                 <div className='icon'>
-                  <span>{item.icon}</span>
+                  <span 
+                    style={{ 
+                      width: "100%",
+                      height: "100%",
+                      display: "block", 
+                      backgroundImage: `url(${item.icon})`,
+                      backgroundSize: "contain"
+                    }}
+                  ></span>
                 </div>
                 <div className='text'>
                   <h3>{item.title}</h3>
@@ -18,7 +27,7 @@ export const Services = ({ items, Heading }) => {
                   <p>{item.decs}</p>
                 </div>
               </div>
-            </>
+      
           ))}
         </div>
       </div>

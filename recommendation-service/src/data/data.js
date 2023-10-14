@@ -1,14 +1,17 @@
-import { AiOutlineHome, AiOutlineCalculator, AiOutlineSetting, AiOutlineShareAlt } from "react-icons/ai"
+import { AiOutlineHome, AiOutlineCalculator } from "react-icons/ai"
 import { RiUserLine } from "react-icons/ri"
 import { FaRegLightbulb, FaFacebookF, FaTwitter, FaInstagram, FaDribbble, FaShippingFast } from "react-icons/fa"
 import { CgCardClubs } from "react-icons/cg"
 import { TbMailOpened } from "react-icons/tb"
 import { GoMail } from "react-icons/go"
-import { GiChart } from "react-icons/gi"
-import { FiLayers } from "react-icons/fi"
-import { BsPhone } from "react-icons/bs"
-import { BsPhoneVibrate, BsVectorPen } from "react-icons/bs"
+import { BsPhoneVibrate } from "react-icons/bs"
 import { MdShareLocation, MdLocalShipping, MdOutlineLocalShipping } from "react-icons/md"
+import coffee from "../../src/images/coffee.png"
+import cadbury from "../../src/images/cadbury.png"
+import crispbread from "../../src/images/crispbread.png"
+import crackers from "../../src/images/crackers.png"
+import sunbites from "../../src/images/sunbites.png"
+import puffs from "../../src/images/puffs.png"
 
 export const menu = [
   {
@@ -103,45 +106,45 @@ export const about = [
     recommendations: [
       {
         id: 1,
-        icon: <AiOutlineSetting />,
-        title: "Web Development",
-        text: "from scratch",
-        decs: "Sunil explicabo. Nemo enim ipsam voluptatem quia sit voluptas aspernatur.",
+        icon: cadbury,
+        title: "Cadbury Dairy Milk Freddo Chocolate",
+        text: "$5.00",
+        decs: "Cadbury Dairy Milk Freddo Chocolate Sharepack 12.",
       },
       {
         id: 2,
-        icon: <BsVectorPen />,
-        title: "UX recherche",
-        text: "data collection",
-        decs: "Sunil explicabo. Nemo enim ipsam voluptatem quia sit voluptas aspernatur.",
+        icon: coffee,
+        title: "Coffee",
+        text: "$3.80",
+        decs: "Nescafe Cappuccino Coffee Sachets | 10 pack",
       },
       {
         id: 3,
-        icon: <FiLayers />,
-        title: "UI design",
-        text: "creativ design",
-        decs: "Sunil explicabo. Nemo enim ipsam voluptatem quia sit voluptas aspernatur.",
+        icon: crispbread,
+        title: "Crispbread",
+        text: "$5.70",
+        decs: "Arnott's Salada Original Crispbread | 250g",
       },
       {
         id: 4,
-        icon: <BsPhone />,
-        title: "Application",
-        text: "stand alone",
-        decs: "Sunil explicabo. Nemo enim ipsam voluptatem quia sit voluptas aspernatur.",
+        icon: crackers,
+        title: "Crackers",
+        text: "$3.30",
+        decs: "Sunbites Cheddar & Chives Snack Crackers | 110g",
       },
       {
         id: 5,
-        icon: <AiOutlineShareAlt />,
+        icon: sunbites,
         title: "Social Media",
-        text: "digital product",
-        decs: "Sunil explicabo. Nemo enim ipsam voluptatem quia sit voluptas aspernatur.",
+        text: "$3.30",
+        decs: "Sunbites Sea Salt Snack Crackers | 105g",
       },
       {
         id: 6,
-        icon: <GiChart />,
-        title: "Search Engine",
-        text: "page rank",
-        decs: "Sunil explicabo. Nemo enim ipsam voluptatem quia sit voluptas aspernatur.",
+        icon: puffs,
+        title: "Puffs",
+        text: "$2.00",
+        decs: "Cheetos Puffs Flaming Hot | 80g",
       },
     ],
 

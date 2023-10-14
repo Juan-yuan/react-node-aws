@@ -9,7 +9,7 @@ export const Info = ({ items, Heading }) => {
           <>
             <div className='about_details_content_box'>
               <div className='icon'>
-                <span>{val.icon}</span>
+                <span >{val.icon}</span>
               </div>
               <div className='about_details_content_box_text'>
                 <h4>{val.text}</h4>

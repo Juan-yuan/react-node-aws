@@ -41,6 +41,10 @@
       .icon {
         @include icons(70px, 70px, $black, 25px, 70px, $indigo);
         color: $indigo;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        padding: 10px;
         &:hover {
           color: $white;
         }
