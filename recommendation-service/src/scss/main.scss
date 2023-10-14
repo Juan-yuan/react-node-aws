@@ -55,9 +55,9 @@ $colors: (
 }
 
 $backgrouds: (
-  skill1: linear-gradient(to right, #ff43cb, #ff56a1, #ff7882, #ff9a74, #feb779),
-  skill2: linear-gradient(to right, #806dfa, #009eff, #00c1ff, #00dcf8, #6ef2e1),
-  skill3: linear-gradient(to right, #8865dd, #9c63dc, #ae62d9, #bf60d6, #cf5ed2),
+  side1: linear-gradient(to right, #ff43cb, #ff56a1, #ff7882, #ff9a74, #feb779),
+  side2: linear-gradient(to right, #806dfa, #009eff, #00c1ff, #00dcf8, #6ef2e1),
+  side3: linear-gradient(to right, #8865dd, #9c63dc, #ae62d9, #bf60d6, #cf5ed2),
 );
 
 @each $skill, $backgroud in $backgrouds {

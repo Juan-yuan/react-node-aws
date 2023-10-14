@@ -19,8 +19,8 @@ export const menu = [
   },
   {
     id: 2,
-    text: "resume",
-    url: "/resume",
+    text: "BoughtBefore",
+    url: "/boughtBefore",
     icon: <RiUserLine />,
   },
   {
@@ -71,19 +71,19 @@ export const side = [
     id: 1,
     num: 85,
     text: "Strawberries",
-    class: "skill1",
+    class: "side1",
   },
   {
     id: 2,
     num: 92,
     text: "Chocolate Chips",
-    class: "skill2",
+    class: "side2",
   },
   {
     id: 3,
     num: 71,
-    text: "Organic Tortilla Chips",
-    class: "skill3",
+    text: "Chips",
+    class: "side3",
   },
 ]
 

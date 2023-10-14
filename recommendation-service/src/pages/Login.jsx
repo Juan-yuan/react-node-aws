@@ -14,7 +14,7 @@ const Login = ({ onLogin }) => {
   return (
     <div className="login">
       <div className="left">
-      <h2>Welcome!</h2>
+      <h1>Welcome!</h1>
       <input
         className="login-input"
         type="text"

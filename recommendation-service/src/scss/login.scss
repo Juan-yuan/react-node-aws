@@ -72,10 +72,13 @@
   text-indent: -20000px;
 }
 .wrapper-button {
-  margin: 10px 0 0 68px;
+  margin-top: 10px;
 
   .button {
+    width: 60%;
+    margin-top: 10px;
     height: 39px;
+    margin-left: auto;
 
     &::after {
       line-height: 39px;

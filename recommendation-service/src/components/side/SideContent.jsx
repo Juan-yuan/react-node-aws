@@ -32,7 +32,7 @@ export const SideContent = ({userId}) => {
           <div className='sideContent_top_img'>
             <img src={sideImg} alt='side' width='100%' />
             <div className='sideContent_top_img_name'>
-              <h3> Welcome </h3>
+              <h2> Go Shopping !</h2>
               <span>{userId}</span>
             </div>
           </div>
