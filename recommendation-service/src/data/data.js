@@ -6,8 +6,8 @@ import { TbMailOpened } from "react-icons/tb"
 import { GoMail } from "react-icons/go"
 import { BsPhoneVibrate } from "react-icons/bs"
 import { MdShareLocation, MdLocalShipping, MdOutlineLocalShipping } from "react-icons/md"
-import coffee from "../../src/images/coffee.png"
-import cadbury from "../../src/images/cadbury.png"
+import mango from "../../src/images/mango.png"
+import strawberry from "../../src/images/strawberry.png"
 import crispbread from "../../src/images/crispbread.png"
 import crackers from "../../src/images/crackers.png"
 import sunbites from "../../src/images/sunbites.png"
@@ -106,17 +106,17 @@ export const about = [
     recommendations: [
       {
         id: 1,
-        icon: cadbury,
-        title: "Cadbury Dairy Milk Freddo Chocolate",
+        icon: strawberry,
+        title: "Strawberry Dairy Milk Freddo Chocolate",
         text: "$5.00",
-        decs: "Cadbury Dairy Milk Freddo Chocolate Sharepack 12.",
+        decs: "857,570 Strawberry Stock Photos - Free & Royalty-Free Stock Photos from Dreamstime",
       },
       {
         id: 2,
-        icon: coffee,
-        title: "Coffee",
+        icon: mango,
+        title: "Mango",
         text: "$3.80",
-        decs: "Nescafe Cappuccino Coffee Sachets | 10 pack",
+        decs: "Mangoes are deliciously sweet and slightly tangy taste. ",
       },
       {
         id: 3,
@@ -151,24 +151,24 @@ export const about = [
     review: [
       {
         id: 1,
-        desc: "They'll have to make the best of things its an uphill climb. Californ'y is the place you oughtto be So they loaded up the truck and moved to Beverly. Hills thatSwimmin' pools movie stars.Maybe you and me were never meant to be.",
-        name: "Edward Johnson",
+        desc: "Strawberries are known for their sweet and slightly tart flavor that pleases the taste buds. Whether eaten fresh or used in a variety of dishes, they add a burst of flavor.",
+        name: "Strawberries",
         link: "gorkcoder.com",
-        cover: "./images/aut1.jpg",
+        cover: "./images/aut1.png",
       },
       {
         id: 2,
-        desc: "They'll have to make the best of things its an uphill climb. Californ'y is the place you oughtto be So they loaded up the truck and moved to Beverly. Hills thatSwimmin' pools movie stars.Maybe you and me were never meant to be.",
-        name: "Gork Coder",
-        link: "gorkcoder.com",
-        cover: "./images/aut2.jpg",
+        desc: "This Chocolate is a universal favorite, bringing people from different cultures and backgrounds together in their appreciation for this delectable treat.",
+        name: "Chocolate",
+        link: "Chocolate.com",
+        cover: "./images/aut2.png",
       },
       {
         id: 3,
-        desc: "They'll have to make the best of things its an uphill climb. Californ'y is the place you oughtto be So they loaded up the truck and moved to Beverly. Hills thatSwimmin' pools movie stars.Maybe you and me were never meant to be.",
-        name: "Edward Johnson",
-        link: "gorkcoder.com",
-        cover: "./images/aut3.jpg",
+        desc: "Chips come in an incredible variety of flavors. Whether you're a fan of classic salted chips or enjoy bold, unique flavors, there's something for everyone.",
+        name: "Chips",
+        link: "Chips.com",
+        cover: "./images/aut3.png",
       },
     ],
 
