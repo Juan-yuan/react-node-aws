@@ -28,12 +28,6 @@ export const menu = [
   },
   {
     id: 3,
-    text: "Specials",
-    url: "/specials",
-    icon: <FaRegLightbulb />,
-  },
-  {
-    id: 4,
     text: "contact",
     url: "/contact",
     icon: <TbMailOpened />,
@@ -157,7 +151,50 @@ export const about = [
         decs: "Cheetos Puffs Flaming Hot | 80g",
       },
     ],
-
+    history: [
+      {
+        id: 1,
+        icon: puffs,
+        title: "Puffs",
+        text: "$2.00",
+        decs: "Cheetos Puffs Flaming Hot | 80g",
+      },
+      {
+        id: 2,
+        icon: sunbites,
+        title: "Social Media",
+        text: "$3.30",
+        decs: "Sunbites Sea Salt Snack Crackers | 105g",
+      },
+      {
+        id: 3,
+        icon: crackers,
+        title: "Crackers",
+        text: "$3.30",
+        decs: "Sunbites Cheddar & Chives Snack Crackers | 110g",
+      },
+      {
+        id: 4,
+        icon: crispbread,
+        title: "Crispbread",
+        text: "$5.70",
+        decs: "Arnott's Salada Original Crispbread | 250g",
+      },
+      {
+        id: 5,
+        icon: mango,
+        title: "Mango",
+        text: "$3.80",
+        decs: "Mangoes are deliciously sweet and slightly tangy taste. ",
+      },
+      {
+        id: 6,
+        icon: strawberry,
+        title: "Strawberry Dairy Milk Freddo Chocolate",
+        text: "$5.00",
+        decs: "857,570 Strawberry Stock Photos - Free & Royalty-Free Stock Photos from Dreamstime",
+      },
+    ],
     review: [
       {
         id: 1,
