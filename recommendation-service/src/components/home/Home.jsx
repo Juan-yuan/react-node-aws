@@ -3,8 +3,6 @@ import { About } from "../about/About"
 
 export const Home = () => {
   return (
-    <>
-      <About />
-    </>
+    <About />
   )
 }

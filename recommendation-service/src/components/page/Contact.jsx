@@ -9,11 +9,9 @@ export const Contact = () => {
         <div className='container'>
           {about.map((items) => {
             return (
-              <>
-                <div className='about_details'>
-                  <Info items={items} Heading={Heading} />
-                </div>
-              </>
+              <div className='about_details'>
+                <Info items={items} Heading={Heading} />
+              </div>
             )
           })}
         </div>

@@ -7,20 +7,18 @@ import { Slider } from "./Slider"
 
 export const About = () => {
   return (
-    <>
-      <section className='about'>
-        <div className='container'>
-          {about.map((items) => {
-            return (
-              <>
-                <Services items={items} Heading={Heading} />
-                <Slider items={items} Heading={Heading} />
-                <Price items={items} Heading={Heading} />
-              </>
-            )
-          })}
-        </div>
-      </section>
-    </>
+    <section className='about'>
+      <div className='container'>
+        {about.map((items) => {
+          return (
+            <>
+              <Services items={items} Heading={Heading} />
+              <Slider items={items} Heading={Heading} />
+              <Price items={items} Heading={Heading} />
+            </>
+          )
+        })}
+      </div>
+    </section>
   )
 }

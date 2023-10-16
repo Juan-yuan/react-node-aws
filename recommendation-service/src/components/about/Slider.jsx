@@ -28,38 +28,36 @@ export const Slider = ({ items, Heading }) => {
     })
   }
   return (
-    <>
-      <div className='about_sider'>
-        <Heading title='Popular Reviews' />
+    <div className='about_sider'>
+      <Heading title='Popular Reviews' />
 
-        <div className='about_sider_content'>
-          {data.map((slide, index) => (
-            <>
-              {index === curSlide && (
-                <div className='card'>
-                  <div className='img'>
-                    <img src={slide.cover} alt='' />
-                  </div>
-                  <div className='text'>
-                    <p>{slide.desc}</p>
-                    <h3>{slide.name}</h3>
-                    <label>{slide.link}</label>
-                  </div>
+      <div className='about_sider_content'>
+        {data.map((slide, index) => (
+          <>
+            {index === curSlide && (
+              <div className='card'>
+                <div className='img'>
+                  <img src={slide.cover} alt='' />
                 </div>
-              )}
-            </>
-          ))}
+                <div className='text'>
+                  <p>{slide.desc}</p>
+                  <h3>{slide.name}</h3>
+                  <label>{slide.link}</label>
+                </div>
+              </div>
+            )}
+          </>
+        ))}
 
-          <div className='about_sider_content_slideButton'>
-            <button className='icon' onClick={nextSlide}>
-              <BsArrowRight />
-            </button>
-            <button className='icon' onClick={prevSlide}>
-              <BsArrowLeft />
-            </button>
-          </div>
+        <div className='about_sider_content_slideButton'>
+          <button className='icon' onClick={nextSlide}>
+            <BsArrowRight />
+          </button>
+          <button className='icon' onClick={prevSlide}>
+            <BsArrowLeft />
+          </button>
         </div>
       </div>
-    </>
+    </div>
   )
 }
