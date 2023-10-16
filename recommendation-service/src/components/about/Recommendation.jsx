@@ -6,7 +6,7 @@ export const Recommendation = ({ items, Heading, userId }) => {
 
   return (
     <>
-      <Heading title='Recommendation info' />
+      <Heading title='Top Recommendations' />
       <div className='recommendation_details_content'>
         {hasRecommendations?.map((val, index) => (
           <div className='recommendation_details_content_box' key={`${val.text}-recommendation`}>
