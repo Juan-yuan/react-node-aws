@@ -1,0 +1,36 @@
+.recommendation_details_content{
+  @include grids(2, 1fr, 10px);
+  margin-bottom: 50px;
+  &_box {
+    @include flex(none, center, none);
+    &_icon {
+      width: 30px;
+      height: 30px;
+      background: #7635f5;
+      color: white;
+      border-radius: 70% 30% 30% 70%/70% 70% 30% 30%;
+      font-size: 22px;
+      line-height: 22px;
+      padding: 5px;
+      text-align: center;
+      transition: all ease 300ms;
+
+      &:hover {
+        background: #01d85f;
+        cursor: pointer;
+        border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+      }
+    }
+
+    &_text {
+      margin-left: 20px;
+      h4 {
+        font-weight: 500;
+        margin-bottom: 8px;
+      }
+      span {            
+        color: $lightgray;
+      }
+    }
+  }
+}

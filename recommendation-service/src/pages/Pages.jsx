@@ -7,7 +7,7 @@ import { Specials } from "../components/page/Specials"
 import { Contact } from "../components/page/Contact"
 import { SideContent } from "../components/side/SideContent"
 
-const Pages = () => {
+const Pages = ({userId}) => {
   return (
     <>
       <div className='main-div'>
@@ -18,7 +18,7 @@ const Pages = () => {
           <Router>
             <Header />
             <Switch>
-              <Route exact path='/' component={Home} />
+              <Route exact path='/' render={() => <Home userId={userId} />} />
               <Route exact path='/boughtBefore' component={BoughtBefore} />
               <Route exact path='/specials' component={Specials} />
               <Route exact path='/contact' component={Contact} />

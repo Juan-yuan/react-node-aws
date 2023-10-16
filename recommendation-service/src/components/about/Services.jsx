@@ -6,8 +6,7 @@ export const Services = ({ items, Heading }) => {
       <Heading title='Shopping made easy' />
       <div className='about_services_boxs'>
         {items.shoppings.map((item) => (
-
-            <div className='card' key={`${item}-icons`}>
+            <div className='card' key={`icons-${item.title}`}>
               <div className='icon'>
                 <span 
                   style={{ 

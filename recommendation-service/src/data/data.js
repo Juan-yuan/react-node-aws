@@ -97,6 +97,22 @@ export const about = [
       { text: "Phone Number", value: "1.800.987.6987", icon: <BsPhoneVibrate /> },
       { text: "Address", value: "Click Here to View Map.", icon: <MdShareLocation /> },
     ],
+    recommendation: {
+      123456: [
+        {text: "Strawberries"},
+        {text: "Chocolate Chip Cookies"},
+        {text: "Organic Tortilla Chips"},
+        {text: "Tall Kitchen Bag With Febreze Odor Shield"},
+        {text: "Baby Cucumbers"},
+      ],
+      21314151: [
+        {text: "Chocolate"},
+        {text: "Chocolate"},
+        {text: "Chocolate"},
+        {text: "Chocolate"},
+        {text: "Chocolate"},
+      ]
+    },
     shoppings: [
       {
         id: 1,
