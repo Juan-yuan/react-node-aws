@@ -34,12 +34,6 @@ export const menu = [
   },
   {
     id: 4,
-    text: "blog",
-    url: "/blog",
-    icon: <CgCardClubs />,
-  },
-  {
-    id: 5,
     text: "contact",
     url: "/contact",
     icon: <TbMailOpened />,
@@ -103,7 +97,7 @@ export const about = [
       { text: "Phone Number", value: "1.800.987.6987", icon: <BsPhoneVibrate /> },
       { text: "Address", value: "Click Here to View Map.", icon: <MdShareLocation /> },
     ],
-    recommendations: [
+    shoppings: [
       {
         id: 1,
         icon: strawberry,

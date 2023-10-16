@@ -1,13 +1,12 @@
 import React from "react"
 
 export const Services = ({ items, Heading }) => {
-  console.log(items.recommendations)
   return (
     <>
       <div className='about_services'>
         <Heading title='Shopping made easy' />
         <div className='about_services_boxs'>
-          {items.recommendations.map((item) => (
+          {items.shoppings.map((item) => (
 
               <div className='card' key={`${item}-icons`}>
                 <div className='icon'>
