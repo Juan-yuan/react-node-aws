@@ -10,9 +10,6 @@ export const Price = ({ items, Heading }) => {
           <div className='cards' key={`${val.pri}-price`}>
             <i>{val.icon}</i>
             <h5>{val.title}</h5>
-            <p>{val.desc}</p>
-            <h3>${val.pri} </h3>
-            <p>per receipt</p>
 
             <button className='button'>
               <BiLockOpen className='icons' />
